@@ -1,62 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacto</title>
-    <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
-    <link rel="stylesheet" href="../css/style.css">
-</head>
-<body>
-    <nav class="cabecera">
-        <a href="../index.html">
-            <img src="../img/logo.png" alt="Logo de Clases de Apoyo" class="logo">
-        </a>
-        <ul>
-            <li>
-                <a href="Matemáticas.html">Matemáticas</a>   
-            </li>
-            <li>
-                <a href="Física.html">Física</a>
-            </li>
-            <li>
-                <a href="Química.html">Química</a>
-            </li>
-            <li>
-                <a href="#">Contacto</a>
-            </li>
-        </ul>
-    </nav>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Contacto</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="shortcut icon" href="../img/img/favicon.svg">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg" id="botonera">
+            <div class="container">
+                <a class="navbar-brand" href="../index.html">
+                    <img src="../img/img/logo.svg" alt="logo">  
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../pages/Matemáticas.html">Matemáticas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Física</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../pages/Química.html">Química</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../pages/Contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+            </div>
+        </nav>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    </body> 
     <header>
-        <img src="../img/principal.png" alt="Contacto." class="banner">
+        <img src="../img/img/ciencias-exactas.svg" alt="Contacto." class="banner">
     </header>
     <main>
         <section>
             <h1>Contáctanos por tus consultas</h1>
             <article>
-                <form action="envio.php">
-                   <div>
-                        <label for="name">Nombre completo</label>
-                        <input type="text" id="name">
+                <div class="row g-3 align-items-center">
+                    <div class="col-auto">
+                      <label for="inputPassword6" class="col-form-label">Nombre completo</label>
                     </div>
-                    <div>
-                        <label for="mail">Email</label>
-                        <input type="mail">
+                    <div class="col-auto">
+                      <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
                     </div>
-                    <div>
-                        <label for="tel">Número de celular</label>
-                        <input type="tel">
+                </div>
+                <div class="row g-3 align-items-center">
+                    <div class="col-auto">
+                      <label for="inputPassword6" class="col-form-label">Número de celular</label>
                     </div>
-                    <div>
-                        <label for="comentario">Ingrese su consulta</label>
+                    <div class="col-auto">
+                      <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
                     </div>
-                    <textarea name="" id="comentario" cols="30" rows="10"></textarea>
-                    <div>
-                        <input type="reset" value="Cancelar">
-                        <input type="submit" value="Aceptar">
-                    </div>
-                </form>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Ingrese su consulta</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div>
             </article>
             <article>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13088.85121313899!2d-56.185392466420794!3d-34.90110878774911!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959f804b4b5e76b1%3A0xee0bb4f5a10afe11!2sColonia%201852%2C%2011200%20Montevideo%2C%20Departamento%20de%20Montevideo!5e0!3m2!1ses-419!2suy!4v1673368576606!5m2!1ses-419!2suy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -66,7 +77,7 @@
     </main>
     <footer>
         <a href="https://www.instagram.com/clases_de_apoyo.uy/" target="_blank">
-            <img src="../img/iconos/instagram.png" alt="Seguinos en instagram" class="footer">
+            <img src="../img/img/iconos/instagram.svg" alt="Seguinos en instagram" class="footer">
         </a>    
     </footer>
 </body>

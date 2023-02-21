@@ -1,0 +1,21 @@
+#botonera{
+    background-color: rgb(204, 240, 171);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    ul{
+        list-style: none;
+        li{
+            margin-left: 10px;
+            a{
+                font-size: $textMd;
+                color: $keyColor;
+                font-family: $mainFont;
+                &:hover{
+                    color:black;
+                }
+            }
+        }
+    }
+}
+

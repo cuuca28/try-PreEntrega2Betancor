@@ -1,0 +1,23 @@
+h1{
+    font-size: $textXll;
+    color: $mainColor;
+    margin: 35px auto;
+    font-weight: $textBold;
+    justify-content: center;
+}
+
+h2, h3{
+    font-size: $textXl;
+    color: $secondary;
+    margin: 55px auto;
+    font-weight: $textBold;
+    justify-content: center;
+}
+
+h4{
+    font-size: $textMd;
+    color: black;
+    margin: 55px auto;
+    font-weight: $textRegular;
+    justify-content: center;
+}

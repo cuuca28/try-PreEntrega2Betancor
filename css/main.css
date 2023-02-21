@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap");
+h1 {
+  font-size: 3em;
+  color: rgb(24, 207, 122);
+  margin: 35px auto;
+  font-weight: 600;
+  justify-content: center;
+}
+
+h2, h3 {
+  font-size: 2em;
+  color: rgb(10, 147, 156);
+  margin: 55px auto;
+  font-weight: 600;
+  justify-content: center;
+}
+
+h4 {
+  font-size: 1.5em;
+  color: black;
+  margin: 55px auto;
+  font-weight: 400;
+  justify-content: center;
+}
+
+#botonera {
+  background-color: rgb(204, 240, 171);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#botonera ul {
+  list-style: none;
+}
+#botonera ul li {
+  margin-left: 10px;
+}
+#botonera ul li a {
+  font-size: 1.5em;
+  color: orange;
+  font-family: "Roboto", sans-serif;
+}
+#botonera ul li a:hover {
+  color: black;
+}
+
+/*# sourceMappingURL=main.css.map */
